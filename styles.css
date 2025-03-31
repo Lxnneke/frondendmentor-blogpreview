@@ -1,0 +1,41 @@
+body {
+    background-color: #F4D04E;
+}
+
+.block {
+    background-color: white;
+    max-width: 300px;
+    border-radius: 20px;
+    display: flex;
+    text-align: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    border-right: 10px solid black;
+    border-bottom: 10px solid black;
+    border-left: 2px solid black;
+    border-top: 2px solid black;
+    padding: 10px;
+}
+
+.attribution { 
+    font-size: 11px;
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+.articleImg {
+    max-width: 300px;
+    border-radius: 20px;
+}
+
+.gregHooper {
+    max-width: 60px;
+}
+
+.category {
+    background-color: #F4D04E;
+    width: 20%;
+}
