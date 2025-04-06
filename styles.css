@@ -1,5 +1,10 @@
 body {
     background-color: #F4D04E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: figtree;
 }
 
 .block {
@@ -14,12 +19,15 @@ body {
     border-bottom: 10px solid black;
     border-left: 2px solid black;
     border-top: 2px solid black;
-    padding: 10px;
+    padding: 15px;
+    margin: 15vh;
 }
 
 .attribution { 
     font-size: 11px;
     text-align: center; 
+    position: relative;
+    bottom: 0;
 }
 
 .attribution a { 
@@ -32,10 +40,54 @@ body {
 }
 
 .gregHooper {
-    max-width: 60px;
+    max-width: 30px;
+    padding-right: 10px;
+}
+
+.writerblock {
+    display: flex;
+    text-align: center;
+}
+
+#greggory {
+    margin: auto 0;
+    font-size: 0.8rem;
+    font-weight: 900;
 }
 
 .category {
     background-color: #F4D04E;
-    width: 20%;
+    width: 25%;
+    padding: 7px;
+    margin-top: 20px;
+    font-weight: 900;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.date {
+    margin-top: 15px;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+h1 {
+    font-size: 22px;
+    font-weight: 800;
+    margin-bottom: 0;
+}
+
+p {
+    font-weight: 300;
+    font-size: 0.9rem;
+}
+
+h1:hover {
+    color:#F4D04E;
+    cursor: pointer;
+}
+
+h1:active {
+    color:#b79c3a;
+    cursor: pointer;
 }
